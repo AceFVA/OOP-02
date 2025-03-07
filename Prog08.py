@@ -2,9 +2,8 @@
 
 num = 0
 
-while num < 100:
-    if num % 2 == 0:
-        num += 1
+while num <= 100:
+    if num % 2 != 0:
         print(num)
-    else:
         num += 1
+    num += 1
